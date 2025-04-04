@@ -14,7 +14,8 @@ Step 1-  Clone the repo: ```git clone https://github.com/feneel/django-product-c
 
 Step 2- Setup your virtual environment: 
      ```python -m venv env 
-        source env/bin/activate```
+        source env/bin/activate
+        cd product_catalog```
 
 Step 3- Install dependencies: ```pip install -r requirements.txt```
 
