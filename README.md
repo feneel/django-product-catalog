@@ -12,12 +12,11 @@ This Django project demonstrates searchable and filterable product catalog tailo
 
 Step 1-  Clone the repo: ```git clone https://github.com/feneel/django-product-catalog.git```
 
-Step 2- Setup your virtual environment: 
-     ```bash 
-        python -m venv env 
-        source env/bin/activate
-        cd product_catalog
-        ```
+Step 2- 
+        Setup your virtual environment: ```python -m venv env```
+        Activate the environment: ```source env/bin/activate```
+        Navigate to the directory: ```cd product_catalog```
+        
 
 Step 3- Install dependencies: ```pip install -r requirements.txt```
 
