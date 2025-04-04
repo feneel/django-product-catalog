@@ -1,0 +1,328 @@
+[
+  {
+    "model": "store.category",
+    "pk": 18,
+    "fields": { "name": "Electrical Tools" }
+  },
+  {
+    "model": "store.category",
+    "pk": 19,
+    "fields": { "name": "Inventory Management" }
+  },
+  {
+    "model": "store.category",
+    "pk": 20,
+    "fields": { "name": "Electrical Components" }
+  },
+  {
+    "model": "store.category",
+    "pk": 21,
+    "fields": { "name": "Supplier Integration" }
+  },
+  {
+    "model": "store.category",
+    "pk": 22,
+    "fields": { "name": "Electrical Safety Gear" }
+  },
+  {
+    "model": "store.category",
+    "pk": 23,
+    "fields": { "name": "Automation Tools" }
+  },
+  {
+    "model": "store.category",
+    "pk": 24,
+    "fields": { "name": "Project Management Software" }
+  },
+  {
+    "model": "store.category",
+    "pk": 25,
+    "fields": { "name": "Construction Software" }
+  },
+  {
+    "model": "store.category",
+    "pk": 26,
+    "fields": { "name": "Job Site Equipment" }
+  },
+  {
+    "model": "store.category",
+    "pk": 27,
+    "fields": { "name": "Workforce Management" }
+  },
+  {
+    "model": "store.category",
+    "pk": 28,
+    "fields": { "name": "Electric Wiring & Cables" }
+  },
+  {
+    "model": "store.tag",
+    "pk": 18,
+    "fields": { "name": "Inventory Tracking" }
+  },
+  { "model": "store.tag", "pk": 19, "fields": { "name": "Tool Management" } },
+  {
+    "model": "store.tag",
+    "pk": 20,
+    "fields": { "name": "Supplier Integration" }
+  },
+  {
+    "model": "store.tag",
+    "pk": 21,
+    "fields": { "name": "Purchasing Solutions" }
+  },
+  { "model": "store.tag", "pk": 22, "fields": { "name": "Cost Reduction" } },
+  {
+    "model": "store.tag",
+    "pk": 23,
+    "fields": { "name": "Productivity Tools" }
+  },
+  {
+    "model": "store.tag",
+    "pk": 24,
+    "fields": { "name": "Electrical Equipment" }
+  },
+  { "model": "store.tag", "pk": 25, "fields": { "name": "Project Tracking" } },
+  { "model": "store.tag", "pk": 26, "fields": { "name": "Time Tracking" } },
+  {
+    "model": "store.tag",
+    "pk": 27,
+    "fields": { "name": "Contractor Software" }
+  },
+  {
+    "model": "store.tag",
+    "pk": 28,
+    "fields": { "name": "Automation & Integration" }
+  },
+  {
+    "model": "store.tag",
+    "pk": 29,
+    "fields": { "name": "Job Site Equipment" }
+  },
+  { "model": "store.tag", "pk": 30, "fields": { "name": "Safety Gear" } },
+  {
+    "model": "store.tag",
+    "pk": 31,
+    "fields": { "name": "Electrical Contractors" }
+  },
+  { "model": "store.tag", "pk": 32, "fields": { "name": "Automation Tools" } },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "name": "Wire Stripping Tool",
+      "description": "Precision wire stripper for clean and efficient wire cutting.",
+      "category": 18,
+      "price": "15.99",
+      "tags": [19, 24]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "name": "Circuit Breaker Panel",
+      "description": "Essential for electrical system management and safety.",
+      "category": 20,
+      "price": "149.99",
+      "tags": [18, 24]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "name": "Cable Mangement System",
+      "description": "Organize and secure cables at construction sites.",
+      "category": 18,
+      "price": "99.99",
+      "tags": [19]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "name": "Project Management Dashboard Software",
+      "description": "A dashboard to track job site progress and team activity.",
+      "category": 25,
+      "price": "499.99",
+      "tags": [25, 27]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "name": "Power Drill Set",
+      "description": "High-performance drill set for construction and installation.",
+      "category": 18,
+      "price": "119.99",
+      "tags": [19, 29]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "name": "Safety Gloves",
+      "description": "Heavy-duty gloves to protect workers from electrical hazards.",
+      "category": 22,
+      "price": "19.99",
+      "tags": [24, 30]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+      "name": "Cable Tester",
+      "description": "Test electrical cables for proper conductivity and safety.",
+      "category": 18,
+      "price": "39.99",
+      "tags": [19, 24]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 12,
+    "fields": {
+      "name": "Electrical Load Calculators",
+      "description": "Calculate electrical loads and requirements for projects.",
+      "category": 25,
+      "price": "49.99",
+      "tags": [25, 31, 32]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 13,
+    "fields": {
+      "name": "Cable Splicing Kits",
+      "description": "Complete kit for joining cables in electrical installations.",
+      "category": 18,
+      "price": "39.99",
+      "tags": [19, 24, 31]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 14,
+    "fields": {
+      "name": "Supplier Integration Platform",
+      "description": "Platform for seamless integration with 450+ suppliers.",
+      "category": 21,
+      "price": "249.99",
+      "tags": [20, 22]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 15,
+    "fields": {
+      "name": "Construction Site Lighting",
+      "description": "Durable lighting solutions for construction sites.",
+      "category": 26,
+      "price": "119.99",
+      "tags": [30, 31]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 16,
+    "fields": {
+      "name": "Electrical Inspection Checklist Software",
+      "description": "Durable lighting solutions for construction sites.",
+      "category": 25,
+      "price": "74.99",
+      "tags": [25, 31, 32]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 17,
+    "fields": {
+      "name": "Material Procurement Automation Software",
+      "description": "Automates material procurement and integrates with suppliers for cost savings.",
+      "category": 25,
+      "price": "499.99",
+      "tags": [20, 22]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 18,
+    "fields": {
+      "name": "Electrical Fuse Box",
+      "description": "Fuse box for managing electrical circuits safely.",
+      "category": 20,
+      "price": "79.99",
+      "tags": [18, 24, 31]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 19,
+    "fields": {
+      "name": "Workforce Scheduling Software",
+      "description": "Manage and schedule field workers for optimal productivity.",
+      "category": 27,
+      "price": "119.99",
+      "tags": [25, 27]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 20,
+    "fields": {
+      "name": "Automated Reorder Trigger System",
+      "description": "Tool to monitor inventory levels and automatically sends reorder requests to approved suppliers when stock falls below a set threshold.",
+      "category": 23,
+      "price": "299.99",
+      "tags": [22, 28]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 21,
+    "fields": {
+      "name": "Smart Inventory Scanner",
+      "description": "A handheld smart scanner that syncs with cloud inventory software to instantly log and track materials across multiple job sites.",
+      "category": 19,
+      "price": "199.99",
+      "tags": [18, 31]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 22,
+    "fields": {
+      "name": "Safety Boots(Electrical)",
+      "description": "Steel-toe boots to protect electricians from on-site hazards.",
+      "category": 22,
+      "price": "79.99",
+      "tags": [24, 30, 31]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 23,
+    "fields": {
+      "name": "Electrical Wire Roll",
+      "description": "Durable electrical wire roll for wiring installations.",
+      "category": 28,
+      "price": "39.99",
+      "tags": [24, 31]
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 24,
+    "fields": {
+      "name": "Wire Cutter",
+      "description": "Durable wire cutters designed for precision electrical work.",
+      "category": 18,
+      "price": "10.99",
+      "tags": [19, 24, 31]
+    }
+  }
+]
