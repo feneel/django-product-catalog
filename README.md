@@ -40,3 +40,5 @@ Step 6- Start development server: ```python manage.py runserver```
 - Tag:
   - name: CharField
 
+## Note
+The examples for `Product`, `Category`, and `Tag` in this project were generated using AI to simulate realistic and relevant data aligned with Remarcable.
