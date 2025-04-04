@@ -1,9 +1,11 @@
 from django.db import models
 
-# Create your models here.
-
-
 class Category(models.Model):
+    
+    '''
+    Represents product's category
+    '''
+
     name= models.CharField(max_length=100, unique=True)
 
     def __str__(self):
@@ -11,6 +13,11 @@ class Category(models.Model):
     
 
 class Tag(models.Model):
+
+    '''
+    Represents tag for filtering products
+    '''
+
     name= models.CharField(max_length=50, unique=True)
 
     def __str__(self):
@@ -18,6 +25,11 @@ class Tag(models.Model):
     
 
 class Product(models.Model):
+
+
+    '''
+    Represents product with their name, description, tags, category and price
+    '''
     name= models.CharField(max_length=200)
     description= models.TextField()
     tags= models.ManyToManyField(Tag)

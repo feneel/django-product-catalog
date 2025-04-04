@@ -10,12 +10,17 @@
 <body>
 
     <h1>Products</h1>
+
+    <!-- Search -->
     <form method="get">
         <input type="text" name="q" placeholder="Search" value="{{request.GET.q}}">
         <button type="submit" name="search" value="search">Search</button>
+    </form>
 
+    <!-- Category and Tag Filter -->
+    <form method="get">
         <select name="category">
-            <option value="">Categories</option>
+            <option value="">All Categories</option>
             {% for category in categories %}
 
             <option value="{{ category.id }}" {% if selected_category == category.id|stringformat:"s" %}selected{% endif %}>
@@ -41,6 +46,8 @@
         <button type="submit">Filter</button>
     </form>
 
+
+    <!-- Product List -->
     <ul>
         {% for product in products %}
         <li>
